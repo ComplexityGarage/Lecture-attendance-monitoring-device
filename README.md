@@ -1,6 +1,6 @@
-# ExemplaryProject  (Title of the project)
+# Lecture attendance monitoring device
 # Authors 
-- Viktoriia  Iashchuk
+- Viktoriia Iashchuk
 - Vitalii Kazakevich
 # Description of the project 
 Text here... 
