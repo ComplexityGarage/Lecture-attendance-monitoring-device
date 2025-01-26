@@ -1,4 +1,4 @@
-# Lecture attendance monitoring device
+# UniLog
 
 # Authors 
 - Viktoriia Iashchuk
