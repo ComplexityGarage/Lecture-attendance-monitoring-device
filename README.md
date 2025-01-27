@@ -20,8 +20,8 @@ The UniLog system has reached the prototype stage and is now ready for initial t
 #### For large-scale deployment, the following improvements are proposed:
 
 #### Hardware Updates:
-- Switch to a more affordable and compact ESP32C3 microcontroller or similar.
-- Modification of the RFID MF RC522 antenna to extend the student card reading range.
+- Switch to a more cost-effective and compact microcontroller, such as the ESP32-C3 or similar.
+- Modify the RFID MF RC522 antenna to enhance the student card reading range.
 
 #### Security and Integration:
 - Add one-time tokens for API security.
