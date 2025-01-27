@@ -1,7 +1,7 @@
 # UniLog
 
 # Description of the project 
-Text here... 
+The UniLog device is designed to enhance the quality of the educational process and optimize teaching time during classes by automating student attendance tracking.
 
 # Science and tech used 
 - ESP32-S2 Feather
@@ -11,11 +11,10 @@ Text here...
 - Arduino IDE
 
 # State of the art 
-Text & plots here... 
+The UniLog system has reached the prototype stage and is now ready for initial testing within the university environment.
 
 # What next?
-
-The UniLog system has reached the prototype stage and is now ready for initial testing within the university environment.
+If the UniLog device proves successful during the limited testing phase, we have several proposals for further project development.
 
 #### For large-scale deployment, the following improvements are proposed:
 
