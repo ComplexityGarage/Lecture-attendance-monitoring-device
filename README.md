@@ -35,4 +35,6 @@ These improvements will help make UniLog more practical and secure for wider use
 - Vitalii Kazakevich
 
 # Sources 
-- [Writing on GitHub] ( https://docs.github.com/en/get-started/writing-on-github ) 
+- Adafruit ESP32-S2 Feather Pinouts – [https://learn.adafruit.com/adafruit-esp32-s2-feather/pinouts](https://learn.adafruit.com/adafruit-esp32-s2-feather/pinouts)
+- Tinkercad – [https://tinkercad.com](https://www.tinkercad.com/)
+- Image2cpp – [https://javl.github.io/image2cpp](https://javl.github.io/image2cpp/)
