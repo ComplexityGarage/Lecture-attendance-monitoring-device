@@ -17,7 +17,7 @@ Text & plots here...
 
 The UniLog system has reached the prototype stage and is now ready for initial testing within the university environment.
 
-### For large-scale deployment, the following improvements are proposed:
+#### For large-scale deployment, the following improvements are proposed:
 
 #### Hardware Updates:
 - Switch to a more affordable and compact ESP32C3 microcontroller or similar.
