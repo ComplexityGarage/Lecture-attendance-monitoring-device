@@ -10,25 +10,26 @@ Text here...
 - Li-Po Battery LP502030 Akyga AKY0106 3.7V / 250mAh
 - Arduino IDE
 
-# Getting Started
-
-Use the following commands to initialize the project:
-
-```bash
-cd firmware/UniLog
-
-# Create a secrets file
-cp secrets.example.h secrets.h
-
-# You can now edit the secret variables in the secrets.h file
-code secrets.h
-```
-
 # State of the art 
 Text & plots here... 
 
 # What next?
-Text here... 
+
+The UniLog prototype is fully ready for limited testing at the university.
+In case of successful testing, the device and web system can be further improved/refined.
+
+## For mass deployment of this device, the following updates are suggested:
+
+### Hardware Updates:
+- Switch to a more affordable and compact ESP32C3 microcontroller or similar.
+
+### Security and Integration:
+- Add one-time tokens for API security.
+- Additional encryption of student card UID codes to enhance privacy.
+- Update the web platform to automatically detect lecture modes and handle student registration.
+- Integration of the web platform with the Pegaz student system to synchronize attendance records.
+
+These improvements will help make UniLog more practical and secure for wider use across the university. The whole system (both device and web platform) can be further refined based on testing results.
 
 # Authors 
 - Viktoriia Iashchuk
