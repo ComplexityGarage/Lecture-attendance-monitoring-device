@@ -19,5 +19,8 @@
         "tailwindcss": "^3.2.1",
         "vite": "^6.0",
         "vue": "^3.4.0"
+    },
+    "dependencies": {
+        "dayjs": "^1.11.13"
     }
 }

@@ -11,7 +11,7 @@ Route::get('/', function () {
 
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard', [
-        'visits' => Visit::query()->orderByDesc('id')->paginate(20)
+        'visitsOnServer' => Visit::query()->orderByDesc('id')->get()
     ]);
 })->middleware(['auth', 'verified'])->name('dashboard');
 
