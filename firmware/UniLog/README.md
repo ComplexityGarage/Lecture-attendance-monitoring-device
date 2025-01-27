@@ -19,7 +19,7 @@ Editable in `config.h`.
 | Component            | Pin   |
 |----------------------|-------|
 | OLED SDA / SCL       | I2C   |
-| RFID-RF522 SDA       | D5    |
-| RFID-RF522 SCK       | SCK   |
-| RFID-RF522 MOSI      | MOSI  |
-| RFID-RF522 MISO      | MISO  |
+| RFID-RC522 SDA       | D5    |
+| RFID-RC522 SCK       | SCK   |
+| RFID-RC522 MOSI      | MOSI  |
+| RFID-RC522 MISO      | MISO  |
