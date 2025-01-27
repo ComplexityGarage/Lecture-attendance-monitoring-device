@@ -11,7 +11,7 @@ The UniLog device is designed to enhance the quality of the educational process 
 - Arduino IDE
 
 # State of the art 
-The UniLog system has reached the prototype stage and is now ready for initial testing within the university environment.
+The UniLog has reached the prototype stage and is now ready for initial testing within the university environment.
 
 # What next?
 If the UniLog device proves successful during the limited testing phase, we have several proposals for further project development.
