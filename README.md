@@ -18,12 +18,12 @@ Text & plots here...
 The UniLog prototype is fully ready for limited testing at the university.
 In case of successful testing, the device and web system can be further improved/refined.
 
-## For mass deployment of this device, the following updates are suggested:
+### For mass deployment of this device, the following updates are suggested:
 
-### Hardware Updates:
+#### Hardware Updates:
 - Switch to a more affordable and compact ESP32C3 microcontroller or similar.
 
-### Security and Integration:
+#### Security and Integration:
 - Add one-time tokens for API security.
 - Additional encryption of student card UID codes to enhance privacy.
 - Update the web platform to automatically detect lecture modes and handle student registration.
