@@ -15,10 +15,9 @@ Text & plots here...
 
 # What next?
 
-The UniLog prototype is fully ready for limited testing at the university.
-In case of successful testing, the device and web system can be further improved/refined.
+The UniLog system has reached the prototype stage and is now ready for initial testing within the university environment.
 
-### For mass deployment of this device, the following updates are suggested:
+### For large-scale deployment, the following improvements are proposed:
 
 #### Hardware Updates:
 - Switch to a more affordable and compact ESP32C3 microcontroller or similar.
