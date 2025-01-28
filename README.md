@@ -9,6 +9,8 @@ The UniLog device is designed to enhance the quality of the educational process 
 - OLED blue graphic display 1.3' 128x64px I2C
 - Arduino IDE
 
+You can find the circuit diagram in the [hardware](./hardware/) directory.
+
 # State of the art 
 The UniLog has reached the prototype stage and is now ready for initial testing within the university environment.
 
