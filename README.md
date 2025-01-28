@@ -7,7 +7,6 @@ The UniLog device is designed to enhance the quality of the educational process 
 - ESP32-S2 Feather
 - MFRC522 RFID Reader
 - OLED blue graphic display 1.3' 128x64px I2C
-- Li-Po Battery LP502030 Akyga AKY0106 3.7V / 250mAh
 - Arduino IDE
 
 # State of the art 
