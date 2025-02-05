@@ -119,7 +119,7 @@ void displayTextWithAnimation(String message, std::initializer_list<const unsign
     display.drawXBMP(0, 0, SCREEN_WIDTH, 40, image);
 
     int width = display.getStrWidth(message.c_str());
-    int x = width < 60 ? (SCREEN_WIDTH - width) / 2 : 1;
+    int x = (width < 60 || LANGUAGE == EN) ? (SCREEN_WIDTH - width) / 2 : 1;
     display.setCursor(x, 60);
     display.print(message.c_str());
 
