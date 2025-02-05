@@ -160,6 +160,7 @@ void loop()
   if (!mfrc522.PICC_IsNewCardPresent())
   {
     displayTextWithAnimation(TXT_WAITING_CARD, {eyes_regular, eyes_bottom});
+    delay(50);
     return;
   }
 
