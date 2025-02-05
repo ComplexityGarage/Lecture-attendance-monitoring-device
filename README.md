@@ -1,5 +1,7 @@
 # UniLog
 
+![Device demonstration](./.github/demo.gif)
+
 # Description of the project 
 The UniLog device is designed to enhance the quality of the educational process and optimize teaching time during classes by automating student attendance tracking.
 
