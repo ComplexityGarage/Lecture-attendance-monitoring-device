@@ -29,6 +29,9 @@
                     </div>
                     </div>
                 Studenci w sali: {{ visits.length }}
+                <input v-model="expectedStudentsCount">
+
+                <button @click.prevent="resetVisitors">Rozpocznij zajęcia</button>
             </div>
         </div>
 
@@ -56,7 +59,7 @@
                                 {{ visit.id }}
                             </td>
                             <td class="border-t p-5">
-                                {{ visit.hash }}
+                                {{  'F041AA' + visit.id }}
                             </td>
                             <td class="border-t p-5">-</td>
                             <td class="w-px border-t p-5">
@@ -91,11 +94,11 @@ export default {
 
     data: () => ({
         visits: [],
+        expectedStudentsCount: 20
     }),
 
     computed: {
         progress_state() {
-            console.log(439.6 - ((this.visits.length*100)/30 * 439.6) / 100)
             return 439.6 - ((this.visits.length*100)/30 * 439.6) / 100;
         }
     },
@@ -103,6 +106,10 @@ export default {
     methods: {
         formattedDate(date) {
             return this.$date(date)
+        },
+        resetVisitors() {
+            this.$inertia.post(route('visitors.reset'))
+            this.visits = [];
         }
     },
 
