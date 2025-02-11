@@ -59,7 +59,7 @@
                                 {{ visit.id }}
                             </td>
                             <td class="border-t p-5">
-                                {{  'F041AA' + visit.id }}
+                                {{  visit.hash }}
                             </td>
                             <td class="border-t p-5">-</td>
                             <td class="w-px border-t p-5">
